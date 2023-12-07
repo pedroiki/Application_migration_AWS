@@ -1,7 +1,6 @@
 # Terraform
 .terraform/
 
-
 # AWS
 .terraform.lock.hcl
 .terraform.tfstate
