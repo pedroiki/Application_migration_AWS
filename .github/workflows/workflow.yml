@@ -1,0 +1,24 @@
+name: CI/CD Pipeline
+
+# evento que faz o trigger para o inicio
+on: [push,pull]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: 16
+
+    - name: Install dependencies
+      run: npm install
+      run: npm build
+
+    - name: Run tests
+      run: npm test
