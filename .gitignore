@@ -5,3 +5,35 @@
 .terraform.lock.hcl
 .terraform.tfstate
 .terraform.tfstate.backup
+
+# Arquivos e diretórios gerais
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Dependências e módulos
+/node_modules/
+/vendor/
+/.venv/
+
+# Arquivos de compilação e saída
+/dist/
+/build/
+/out/
+/bin/
+*.log
+
+# Arquivos temporários
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Arquivos de configuração locais
+.env
+*.env.local
+
+# Arquivos específicos para linguagens de programação
+*.pyc
+*.class
