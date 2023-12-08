@@ -1,6 +1,5 @@
 name: CI/CD Pipeline
-
-# evento que faz o trigger para o inicio
+# evento que faz o trigger para o início
 on: [push]
 
 jobs:
@@ -16,9 +15,10 @@ jobs:
       with:
         node-version: 16
 
-    - name: Install dependencies
-      run: npm install
-      run: npm build
+    - name: Install dependencies and build
+      run: |
+        npm install
+        npm build
 
     - name: Run tests
       run: npm test
