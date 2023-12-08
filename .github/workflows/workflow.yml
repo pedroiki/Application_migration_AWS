@@ -1,7 +1,7 @@
 name: CI/CD Pipeline
 
 # evento que faz o trigger para o inicio
-on: [push,pull]
+on: [push]
 
 jobs:
   build:
