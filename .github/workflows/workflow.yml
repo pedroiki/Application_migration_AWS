@@ -1,4 +1,3 @@
-name: CI/CD Pipeline
 # evento que faz o trigger para o início
 on: [push]
 
