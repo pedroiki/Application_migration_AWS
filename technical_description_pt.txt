@@ -1,0 +1,18 @@
+A migração é feita em duas etapas. Na primeira etapa, os componentes do sistema são copiados para a nuvem. Isso é feito usando um software de migração, que pode ser fornecido pelo provedor de serviços de nuvem ou desenvolvido internamente.
+
+Na segunda etapa, os componentes do sistema são configurados para funcionar na nuvem. Isso pode incluir tarefas como a criação de contas de usuário e a alocação de recursos de computação.
+
+O diagrama mostra os seguintes componentes do sistema:
+
+Load balancer: O balanceador de carga distribui o tráfego entre os servidores.
+Servidores: Os servidores executam os aplicativos e serviços do sistema.
+Firewall de aplicação web (WAF): O WAF protege o sistema contra ataques cibernéticos.
+Bancos de dados relacionais (ER): Os bancos de dados relacionais armazenam os dados do sistema.
+Redis: Redis é um banco de dados não relacional que é usado para armazenamento de dados em cache.
+PostgreSQL: PostgreSQL é um banco de dados relacional que é usado para armazenamento de dados de grande volume.
+O diagrama também mostra o seguinte fluxo de dados:
+
+Os usuários acessam o sistema através do load balancer.
+O load balancer envia o tráfego para os servidores.
+Os servidores executam os aplicativos e serviços do sistema.
+Os aplicativos e serviços do sistema acessam os bancos de dados.
