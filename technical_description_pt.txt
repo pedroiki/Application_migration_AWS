@@ -1,6 +1,8 @@
-A migração é feita em duas etapas. Na primeira etapa, os componentes do sistema são copiados para a nuvem. Isso é feito usando um software de migração, que pode ser fornecido pelo provedor de serviços de nuvem ou desenvolvido internamente.
+A migração é feita em duas etapas. Na primeira etapa, os componentes do sistema são copiados para a nuvem.
+Isso é feito usando um software de migração, que pode ser fornecido pelo provedor de serviços de nuvem ou desenvolvido internamente.
 
-Na segunda etapa, os componentes do sistema são configurados para funcionar na nuvem. Isso pode incluir tarefas como a criação de contas de usuário e a alocação de recursos de computação.
+Na segunda etapa, os componentes do sistema são configurados para funcionar na nuvem. Isso pode incluir tarefas
+como a criação de contas de usuário e a alocação de recursos de computação.
 
 O diagrama mostra os seguintes componentes do sistema:
 
